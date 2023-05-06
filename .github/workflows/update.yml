@@ -22,4 +22,6 @@ jobs:
         run: |
           git add content.txt
           git commit -m "updated content.txt"
+          git remote set-url origin ${{ secrets.ssh }}
+          git fetch origin main
           git push origin HEAD:main
