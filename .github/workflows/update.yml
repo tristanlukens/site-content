@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: update
-        run: ls cover post | content.txt
+        run: ls cover post > content.txt
