@@ -19,7 +19,7 @@ jobs:
         run: ls
 
       - name: update content
-        run: ls cover post > content.txt
+        run: ls cover post > content.txt && cat content.txt
 
       - name: push to content
         run: |
