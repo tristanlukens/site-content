@@ -1,5 +1,7 @@
 # site-content
 
+DEPRECATED. I USE HYGRAPH NOW
+
 Blog posts and covers
 
 ---
