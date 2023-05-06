@@ -4,6 +4,7 @@ Muse_Hysteria.md
 post:
 albums.md
 blog-showcase.md
+boop.md
 fedora-linux.md
 golang.md
 handwritten-tests.md
