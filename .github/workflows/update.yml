@@ -23,7 +23,7 @@ jobs:
           git commit -m "updated content.txt"
           
       - name: push content
-        uses: tristanlukens/site-content@main
+        uses: ad-m/github-push-action@master
         with: 
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
