@@ -21,11 +21,15 @@ jobs:
       - name: update content
         run: ls cover post > content.txt && cat content.txt
 
-      - name: push to content
+      - name: commit content
         run: |
-          git config --local user.name "tristanlukens"
+          git config --local user.name "updater"
+          git config --local user.email "updater@github.com"
           git add content.txt
           git commit -m "updated content.txt"
-          git remote set-url origin ${{ secrets.ssh }}
-          git fetch origin main
-          git push origin HEAD:main
+          
+      - name: push content
+        uses: tristanlukens/site-content@main
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
