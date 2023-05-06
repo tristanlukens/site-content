@@ -20,6 +20,7 @@ jobs:
 
       - name: push to content
         run: |
+          git config --local user.name "actions"
           git add content.txt
           git commit -m "updated content.txt"
           git remote set-url origin ${{ secrets.ssh }}
