@@ -14,7 +14,7 @@ markdown-thing-1.md
 procrastination.md
 rust-introduction.md
 test.md
+this-site-v-boo.md
 this-site-v1.md
-this_site_v_boo.md
 update-28-april-2022.md
 update-6-nov-2022.md
