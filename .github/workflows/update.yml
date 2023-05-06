@@ -17,3 +17,4 @@ jobs:
 
       - name: update
         run: ls cover post > content.txt
+        shell: bash
