@@ -15,5 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: update
+      - name: update content
         run: ls cover post
+
+      - name: push to content
+        run: |
+          git add content.txt
+          git commit -m "updated content.txt"
+          git push origin HEAD:main
