@@ -1,0 +1,1 @@
+All images used in blog posts are stored in this directory.
