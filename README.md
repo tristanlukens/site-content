@@ -2,7 +2,7 @@
 
 DEPRECATED. I USE HYGRAPH NOW
 
-Blog posts and covers
+Blog posts, covers and images for blog posts.
 
 ---
 
